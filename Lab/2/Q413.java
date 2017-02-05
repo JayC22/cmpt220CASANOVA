@@ -7,7 +7,7 @@ public class Q413 {
 		// TODO Auto-generated method stub
 		
 		@SuppressWarnings("resource")
-		Scanner input = new Scanner(System.in);
+		Scanner input = new Scanner(System.in); //JA: You forgot to put the input message
 		char letter = input.next().charAt(0);
 		
 		

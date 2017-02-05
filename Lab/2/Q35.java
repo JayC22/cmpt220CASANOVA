@@ -17,7 +17,7 @@ public class Q35 {
 		
 		int future = input.nextInt();	
 		System.out.println("Today is ");
-		switch (day % 6){
+		switch (day % 6){ // JA: You don't need to use the % operator here. This would never handle Saturday
 		case 0: System.out.println("Sunday"); break;
 		case 1: System.out.println("Monday"); break;
 		case 2: System.out.println("Tuesday"); break;
