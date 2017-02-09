@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// JA: Add comments to your code
 public class Q51 {
 
 	public static void main(String[] args) {
@@ -26,7 +27,8 @@ public class Q51 {
 	     
 	     }
 		
-		average = total / count;		
+		average = total / count; // JA: Total and count are both integer, so the division will be an integer.
+		// JA: You should make one of them as double or float.
 		
 	     System.out.println("The number of positives is "+ positive);
 	     System.out.println("The number of negatives is "+ negative);
