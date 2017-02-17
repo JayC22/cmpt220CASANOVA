@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// JA: Put comments in all your code.
 public class q74 {
 
 	    static final int MAX = 100;
@@ -36,7 +37,7 @@ public class q74 {
 	            total += scores[i];
 	        }
 
-	        return total / numberOfScores;
+	        return total / numberOfScores; // JA: This has to be non-integer.
 	    }
 
 	    public static int scoresAboveAndEqualToAverage(int[] scores, int average) {

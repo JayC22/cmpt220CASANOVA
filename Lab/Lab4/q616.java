@@ -1,4 +1,4 @@
-
+// JA: Use comments in all your code.
 public class q616 {
 	public static void main(String[] args) {
 
@@ -8,6 +8,7 @@ public class q616 {
         }
     }
 
+    // JA: Your function is reversed. Leap years have 366 days.
     public static int numberOfDaysInAYear(int year) {
 
         if (isLeapYear(year)) return 365;
