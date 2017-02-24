@@ -1,6 +1,7 @@
 import java.text.DecimalFormat;
 import java.util.Scanner; 
 
+// JA: Always add comments to your code
 public class Q7_11 {
 
 	public static void main(String[] args) {
@@ -42,7 +43,7 @@ public class Q7_11 {
 		double result;
 		
 		for (int i=0; i<10; i++) {
-			sum1 += Math.pow((numbers[i]-average),2);
+			sum1 += Math.pow((numbers[i]-average),2); // JA: Here average is 0. You should had called mean() before computing the standard deviation
 		}
 		result = sum1/9;
 		result = Math.sqrt(result);

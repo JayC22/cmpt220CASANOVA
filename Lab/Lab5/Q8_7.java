@@ -30,7 +30,7 @@ public class Q8_7 {
      // Display result
      System.out.println("The closest two points are " +
              "(" + points[p1][0] + ", " + points[p1][1] + ") and (" +
-             points[p2][0] + ", " + points[p2][1] + ")");
+             points[p2][0] + ", " + points[p2][1] + ")"); // JA: You forgot to pront the z value.
  }
 
  public static double distance(
