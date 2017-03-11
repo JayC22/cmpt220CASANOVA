@@ -1,3 +1,6 @@
+// JA: Always add comments to your code
+// JA: There is no test class to test this
+// JA: Your code is exactly the same as another student in the class
 	class LinearEquation {
 		private double a;
 		private double b;
