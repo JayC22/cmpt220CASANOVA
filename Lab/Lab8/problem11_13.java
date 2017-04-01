@@ -16,6 +16,8 @@ public class problem11_13 {
 			System.out.print(list.get(i)+ " ");
 		}
 	}
+
+	// JA: A better strategy is to recreate the list without the duplicates
 	public static void removeDuplicate(ArrayList list) {
 		for (int i=0; i<list.size()-1;i++) {
 			for(int j=i+1; j<list.size(); j++) {

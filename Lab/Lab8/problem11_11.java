@@ -20,9 +20,9 @@ public class problem11_11 {
 	}
 	public static void sort (ArrayList<Integer> list) {
 		int temp;
-		for(int i=0; i<list.size(); i++) {
-			for(int j=i+1; j<list.size()-1; j++) {
-				if(list.get(i)>list.get(j)) {
+		for(int i=0; i<list.size() - 1; i++) { // JA
+			for(int j=i+1; j<list.size(); j++) { // JA
+				if(list.get(i)>list.get(j)) { 
 					temp=list.get(i);
 					list.set(i, list.get(j));
 					list.set(j, temp);

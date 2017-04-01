@@ -24,7 +24,8 @@ public class Triangle extends problem11_1{
 		fill = input.nextBoolean();
 		
 		Triangle tt = new Triangle (s1,s2,s3);
-		tt.putcolor(color);
+		// JA tt.putcolor(color);
+		tt.setColor(color);
 		tt.setFill(fill);
 		
 		System.out.println("Sides of "+ tt.toString());

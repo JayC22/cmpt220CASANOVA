@@ -6,6 +6,12 @@ public class problem11_1 {
 	public String getColor() {
 		return Color;
 	}
+
+	// JA
+	public void setColor(String color) {
+		this.Color = color;
+	}
+
 	public void setFill(boolean fill) {
 		isfilled = fill;
 	}
