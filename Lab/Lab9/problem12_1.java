@@ -1,4 +1,4 @@
-
+// JA: This is the same code that another student in my other class had, which, btw, it's wrong.
 public class problem12_1 {
 	public static void main(String[] args) {
 		if(args.length !=1) {

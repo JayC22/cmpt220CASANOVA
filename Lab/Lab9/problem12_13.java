@@ -27,7 +27,7 @@ public class problem12_13 {
 			wordsCount += words.length;
 			
 			for(String token: words) {
-				characterCount =+ token.length();
+				characterCount += token.length(); // JA: This misses counting white spaces
 			}
 		}
 		System.out.println("Name of the input file: "+fileName);
